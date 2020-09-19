@@ -1,0 +1,4 @@
+#import Profile from 'profile.graphql'
+#import User from 'user.graphql'
+#import Product from 'product.graphql'
+#import Query from 'query.graphql'

@@ -1,0 +1,9 @@
+type Query {
+    user(id: ID!): User
+    users: [User!]
+    logged_users: [User!]
+    product(id: ID!): Product
+    products: [Product!]
+    profile(id: ID!): Profile
+    profiles: [Profile!]
+}
