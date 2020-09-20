@@ -1,0 +1,24 @@
+type Mutation {
+    newUser(name: String!, email: String!, age: Int!, profile_id: ID!): User!
+    updateUser(
+        id: ID!
+        name: String!
+        email: String!
+        age: Int!
+        profile_id: ID!
+    ): User
+    deleteUser(id: ID!): User
+
+    newProfile(name: String!): Profile
+    updateProfile(id: ID!, name: String!): Profile
+    deleteProfile(id: ID!): Profile
+
+    newProduct(name: String!, price: Float!, discount: Float!): Product
+    updateProduct(
+        id: ID!
+        name: String!
+        price: Float!
+        discount: Float!
+    ): Product
+    deleteProduct(id: ID!): Product
+}
